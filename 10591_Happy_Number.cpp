@@ -38,7 +38,7 @@ int main(){
         else results[i] = "Unhappy";
     }
     
-    // cetak semua di akhir
+    // print all in the end
     for(int i = 0; i < T; i++){
         cout << "Case #" << i+1 << ": " << ori[i] << " is a " << results[i] << " number." << endl;
     }
